@@ -2,9 +2,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 img {
   width: 100px;
   height: 100px;
+  }
+
+.title, .Icons-section {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.Icons-section {
+  gap: 52px;
+  justify-content: center;
+}
+
+.Plant1, .Plant2, .Plant3, .Plant4 {
+  width: 200px;
+  text-align: center;
 }
 
 .title {
