@@ -20,14 +20,16 @@ body {
 }
 
 .Main-Content {
-  display:flex;
+  display: flex;
+  flex: 1;
 }
 
 .Cards {
-  padding: 16px;
+  padding: 32px;
   display:flex;
-  flex-direction: row;
-  align-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .footer {
@@ -36,6 +38,7 @@ body {
   color: darkmagenta;
   display: flex;
   justify-content: center;
+  margin-top: auto;
 }
 
 .sidebar {
@@ -52,10 +55,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;  
   padding: 8px;
+  margin: 20px;
+  width: 300px;
 }
 
 ul {
-  text-decoration: none;
-  list-style-type:none;
-  color: white;
+
 }
