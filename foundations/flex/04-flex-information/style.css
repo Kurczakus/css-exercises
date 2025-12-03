@@ -31,4 +31,17 @@ img {
   display:flex;
   justify-content:center;
   align-items: center;
+  flex-wrap:wrap;
+}
+
+.plant-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0 52px;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
 }
