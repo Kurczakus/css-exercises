@@ -42,7 +42,7 @@ body {
 
 .cards-container {
   padding:48px;
-  gap: 32px;px;
+  gap: 32px;
   display:flex;
   flex-wrap: wrap;
 }
